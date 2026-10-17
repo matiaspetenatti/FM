@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <title>FM26 Hub</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>FM26 Hub</h1>
+        <div class="controls">
+            <label>
+                Fecha de los datos
+                <select id="snapshot"></select>
+            </label>
+        </div>
+        <nav class="tabs">
+            <button class="tab-button active" data-tab="clubs">Clubes</button>
+            <button class="tab-button" data-tab="players">Jugadores</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Pestaña Clubes -->
+        <section id="tab-clubs" class="tab-panel">
+            <div class="controls">
+                <label>
+                    Club
+                    <input id="club-filter" type="text" placeholder="Filtrar clubes..." />
+                    <select id="club"></select>
+                </label>
+            </div>
+            <h2 id="club-title">Elegí un club</h2>
+            <table id="club-table" hidden>
+                <thead>
+                    <tr id="club-head"></tr>
+                </thead>
+                <tbody id="club-body"></tbody>
+            </table>
+            <section id="club-detail" class="detail" hidden></section>
+        </section>
+
+        <!-- Pestaña Jugadores -->
+        <section id="tab-players" class="tab-panel" hidden>
+            <div class="controls">
+                <label>
+                    Buscar
+                    <input id="player-search" type="text" placeholder="Nombre de jugador o club..." />
+                </label>
+            </div>
+            <h2 id="player-title">Jugadores</h2>
+            <table id="player-table" hidden>
+                <thead>
+                    <tr id="player-head"></tr>
+                </thead>
+                <tbody id="player-body"></tbody>
+            </table>
+            <div id="player-pager" class="pager"></div>
+            <section id="player-detail" class="detail" hidden></section>
+        </section>
+    </main>
+
+    <script src="attributes.js"></script>
+    <script src="common.js"></script>
+    <script src="clubs.js"></script>
+    <script src="players.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

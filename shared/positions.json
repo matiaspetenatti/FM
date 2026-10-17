@@ -1,0 +1,222 @@
+[
+    {
+        "id": "GK",
+        "label": "GK",
+        "title": "Portero",
+        "weights": {
+            "reflexes": 3,
+            "handling": 3,
+            "positioning": 3,
+            "one_on_ones": 2,
+            "aerial_reach": 2,
+            "command_of_area": 2,
+            "communication": 2,
+            "anticipation": 2,
+            "concentration": 2,
+            "decisions": 2,
+            "agility": 2,
+            "kicking": 1,
+            "throwing": 1,
+            "composure": 1,
+            "rushing_out": 1,
+            "punching": 1
+        }
+    },
+    {
+        "id": "DC",
+        "label": "DC",
+        "title": "Defensa central",
+        "weights": {
+            "marking": 3,
+            "tackling": 3,
+            "heading": 3,
+            "positioning": 3,
+            "anticipation": 2,
+            "concentration": 2,
+            "decisions": 2,
+            "strength": 2,
+            "jumping_reach": 2,
+            "pace": 2,
+            "composure": 1,
+            "bravery": 1,
+            "aggression": 1,
+            "passing": 1,
+            "first_touch": 1,
+            "acceleration": 1
+        }
+    },
+    {
+        "id": "DLR",
+        "label": "D L/R",
+        "title": "Lateral (D izq. / der.)",
+        "weights": {
+            "tackling": 3,
+            "pace": 3,
+            "stamina": 3,
+            "marking": 2,
+            "positioning": 2,
+            "acceleration": 2,
+            "work_rate": 2,
+            "crossing": 2,
+            "anticipation": 2,
+            "decisions": 2,
+            "concentration": 1,
+            "teamwork": 1,
+            "dribbling": 1,
+            "passing": 1,
+            "agility": 1,
+            "balance": 1
+        }
+    },
+    {
+        "id": "WBLR",
+        "label": "WB L/R",
+        "title": "Carrilero (WB izq. / der.)",
+        "weights": {
+            "stamina": 3,
+            "pace": 3,
+            "crossing": 3,
+            "work_rate": 3,
+            "acceleration": 2,
+            "dribbling": 2,
+            "tackling": 2,
+            "positioning": 2,
+            "passing": 2,
+            "marking": 1,
+            "anticipation": 1,
+            "decisions": 1,
+            "off_the_ball": 1,
+            "teamwork": 1,
+            "technique": 1,
+            "agility": 1
+        }
+    },
+    {
+        "id": "DM",
+        "label": "DM",
+        "title": "Mediocentro defensivo",
+        "weights": {
+            "tackling": 3,
+            "positioning": 3,
+            "anticipation": 3,
+            "decisions": 2,
+            "concentration": 2,
+            "teamwork": 2,
+            "work_rate": 2,
+            "marking": 2,
+            "passing": 2,
+            "stamina": 2,
+            "composure": 1,
+            "strength": 1,
+            "aggression": 1,
+            "first_touch": 1,
+            "bravery": 1
+        }
+    },
+    {
+        "id": "MC",
+        "label": "MC",
+        "title": "Mediocentro",
+        "weights": {
+            "passing": 3,
+            "decisions": 3,
+            "vision": 2,
+            "first_touch": 2,
+            "technique": 2,
+            "teamwork": 2,
+            "work_rate": 2,
+            "stamina": 2,
+            "composure": 2,
+            "anticipation": 1,
+            "off_the_ball": 1,
+            "positioning": 1,
+            "tackling": 1,
+            "long_shots": 1,
+            "balance": 1
+        }
+    },
+    {
+        "id": "MLR",
+        "label": "M L/R",
+        "title": "Mediocampista por banda (M izq. / der.)",
+        "weights": {
+            "crossing": 3,
+            "dribbling": 2,
+            "pace": 2,
+            "acceleration": 2,
+            "stamina": 2,
+            "work_rate": 2,
+            "passing": 2,
+            "teamwork": 2,
+            "technique": 1,
+            "first_touch": 1,
+            "decisions": 1,
+            "off_the_ball": 1,
+            "agility": 1,
+            "vision": 1
+        }
+    },
+    {
+        "id": "AMC",
+        "label": "AMC",
+        "title": "Mediapunta",
+        "weights": {
+            "technique": 3,
+            "passing": 3,
+            "vision": 3,
+            "first_touch": 2,
+            "decisions": 2,
+            "flair": 2,
+            "dribbling": 2,
+            "off_the_ball": 2,
+            "composure": 2,
+            "long_shots": 1,
+            "anticipation": 1,
+            "agility": 1,
+            "acceleration": 1,
+            "finishing": 1
+        }
+    },
+    {
+        "id": "AMLR",
+        "label": "AM L/R",
+        "title": "Extremo (AM izq. / der.)",
+        "weights": {
+            "dribbling": 3,
+            "pace": 3,
+            "acceleration": 3,
+            "crossing": 2,
+            "technique": 2,
+            "first_touch": 2,
+            "flair": 2,
+            "agility": 2,
+            "off_the_ball": 2,
+            "balance": 1,
+            "decisions": 1,
+            "finishing": 1,
+            "passing": 1,
+            "stamina": 1,
+            "work_rate": 1
+        }
+    },
+    {
+        "id": "ST",
+        "label": "ST",
+        "title": "Delantero centro",
+        "weights": {
+            "finishing": 3,
+            "off_the_ball": 3,
+            "composure": 3,
+            "first_touch": 2,
+            "acceleration": 2,
+            "pace": 2,
+            "anticipation": 2,
+            "decisions": 1,
+            "dribbling": 1,
+            "heading": 1,
+            "technique": 1,
+            "strength": 1,
+            "balance": 1
+        }
+    }
+]
